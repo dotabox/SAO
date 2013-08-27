@@ -596,10 +596,6 @@
                 addAudio('battle2', document.getElementById('battle2_sound')).
                 addAudio('battle3', document.getElementById('battle3_sound')).
                 addAudio('battle4', document.getElementById('battle4_sound')).
-                addAudio('theme1', document.getElementById('mapTheme1_sound')).
-                addAudio('theme2', document.getElementById('mapTheme2_sound')).
-                addAudio('theme3', document.getElementById('mapTheme3_sound')).
-                addAudio('theme4', document.getElementById('mapTheme4_sound')).
                 addAudio('story', document.getElementById('story_sound')).
                 addAudio('gameover', document.getElementById('gameover_sound')).
                 addAudio('bossMusic', document.getElementById('bossMusic_sound'));
@@ -867,7 +863,6 @@
 							    rds = 4;
 							}
 							director.endSound();
-							director.audioLoop('theme' + rds);
 						}
 					}
 				}
@@ -1155,7 +1150,6 @@
 							    rds = 4;
 							}
 							director.endSound();
-							director.audioLoop('theme' + rds);
 							director.switchToScene(2,500,1,1);
 							keys = [0,0,0,0];
 							bc.destroy();
