@@ -489,16 +489,16 @@
 			addElement("animation3", "img/ani 15.png").
 			addElement("animation4", "img/ani 594.png").
 			addElement("animation5", "img/ani 591.png").
-			addElement("face", "img/face.png").
+			addElement("face", "img/face.PNG").
 			addElement("faceBoss", "img/faceBoss.png").
-			addElement("hp_meter", "img/HP_Meter.png").
-			addElement("mp_meter", "img/MP_Meter.png").
+			addElement("hp_meter", "img/HP_Meter.PNG").
+			addElement("mp_meter", "img/MP_Meter.PNG").
 			addElement("exp_meter", "img/EXP_Meter.png").
 			addElement("hp_tx", "img/HP_Tx2.png").
 			addElement("mp_tx", "img/MP_Tx2.png").
-			addElement("exp_tx", "img/EXP_Tx2.png").
-			addElement("lv_tx", "img/LV_Tx2.png").
-			addElement("hp_bar", "img/bar.png").
+			addElement("exp_tx", "img/Exp_Tx2.png").
+			addElement("lv_tx", "img/LV_Tx2.PNG").
+			addElement("hp_bar", "img/bar.PNG").
 			addElement("exp_bar", "img/exp_back.png").
 			addElement("menu_bg", "img/menu_bg.png").
 			addElement("hp_pot", "img/hp_pot.png").
@@ -510,8 +510,8 @@
 			addElement("sword5", "img/sword5.png").
 			addElement("sword6", "img/sword6.png").
 			addElement("Trang bị", "img/equip.png").
-			addElement("Kỹ năng", "img/skill.png").
-			addElement("Thông tin", "img/status.png").
+			addElement("Kỹ năng", "img/skill.PNG").
+			addElement("Thông tin", "img/status.PNG").
 			addElement("Trở lại", "img/back.png").
 			addElement("Thoát", "img/exit.png").
 			addElement("bg1", "img/battle_bg1.jpg").
@@ -543,10 +543,10 @@
 			addElement("add_icon", "img/add_icon.png").
 			addElement("start_bg", "img/start_bg.jpg").
 			addElement("mask", "img/mask.png").
-			addElement("story_tx", "img/story_text.png").
+			addElement("story_tx", "img/story_text.PNG").
 			addElement("story_bg", "img/story_bg.jpg").
 			addElement("dmg", "img/Combo_Damage.PNG").
-			addElement("lvlup", "img/levelup.PNG").
+			addElement("lvlup", "img/levelup.png").
 			addElement("addskill", "img/newskill.png").
 			addElement("monster1", "img/monster1.png").
 			addElement("monster2", "img/monster2.png").
