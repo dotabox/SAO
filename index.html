@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Sword Art Offline</title>
+	<style>
+		#canvasDiv {
+				width: 640px;
+				height: 480px;
+				border: 1px solid #000000;
+				position: relative;
+				margin: 50px auto 0;
+			}
+			
+		#canvas {
+			position: absolute;
+		}	
+	</style>
+	<script src="caat.js"></script>
+	<script src="constant.js"></script>
+	<script src="char.js"></script>
+	<script src="monster.js"></script>
+	<script src="map.js"></script>
+    <script src="story.js"></script>
+	<script src="scene.js"></script>
+	<script src="test.js"></script>
+</head>
+<body>
+	<div id="canvasDiv">
+        <audio src='resource/attack.ogg' preload='auto' id='attack_sound'></audio>
+        <audio src='resource/item.ogg' preload='auto' id='item_sound'></audio>
+        <audio src='resource/keypress.ogg' preload='auto' id='keypress_sound'></audio>
+        <audio src='resource/boss1.ogg' preload='auto' id='boss1_sound'></audio>
+        <audio src='resource/bossMusic.ogg' preload='auto' id='bossMusic_sound'></audio>
+        <audio src='resource/meetmonster.ogg' preload='auto' id='meetmonster_sound'></audio>
+        <audio src='resource/fire.ogg' preload='auto' id='fire_sound'></audio>
+        <audio src='resource/ice.ogg' preload='auto' id='ice_sound'></audio>
+        <audio src='resource/thunder.ogg' preload='auto' id='thunder_sound'></audio>
+
+        <audio src='resource/battle1.ogg' preload='auto' id='battle1_sound'></audio>
+        <audio src='resource/battle2.ogg' preload='auto' id='battle2_sound'></audio>
+        <audio src='resource/battle3.ogg' preload='auto' id='battle3_sound'></audio>
+        <audio src='resource/battle4.ogg' preload='auto' id='battle4_sound'></audio>
+
+        <audio src='resource/mapTheme1.ogg' preload='auto' id='mapTheme1_sound'></audio>
+        <audio src='resource/mapTheme2.ogg' preload='auto' id='mapTheme2_sound'></audio>
+        <audio src='resource/mapTheme3.ogg' preload='auto' id='mapTheme3_sound'></audio>
+        <audio src='resource/mapTheme4.ogg' preload='auto' id='mapTheme4_sound'></audio>
+		
+        <audio src='resource/start.ogg' preload='auto' id='start_sound'></audio>
+        <audio src='resource/story.ogg' preload='auto' id='story_sound'></audio>
+        <audio src='resource/gameover.ogg' preload='auto' id='gameover_sound'></audio>
+        <canvas id="canvas" width ="600px" height ="500px"></canvas>
+	</div>
+</body>
+</html>
