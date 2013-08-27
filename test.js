@@ -600,7 +600,6 @@
                 addAudio('theme2', document.getElementById('mapTheme2_sound')).
                 addAudio('theme3', document.getElementById('mapTheme3_sound')).
                 addAudio('theme4', document.getElementById('mapTheme4_sound')).
-                addAudio('start', document.getElementById('start_sound')).
                 addAudio('story', document.getElementById('story_sound')).
                 addAudio('gameover', document.getElementById('gameover_sound')).
                 addAudio('bossMusic', document.getElementById('bossMusic_sound'));
@@ -655,7 +654,6 @@
 		mapScene.addChild(map);
 		winScene.addChild(new CAAT.WinContainer().initialize());
 		gameoverScene.addChild(new CAAT.GameOverContainer().initialize());
-		director.audioLoop('start');
 		director.switchToScene(index, 500, 1, 1);
 		
 		///*
