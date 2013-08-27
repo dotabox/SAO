@@ -497,9 +497,9 @@
 			addElement("hp_tx", "img/HP_Tx2.png").
 			addElement("mp_tx", "img/MP_Tx2.png").
 			addElement("exp_tx", "img/Exp_Tx2.png").
-			addElement("lv_tx", "img/LV_Tx2.PNG").
+			addElement("lv_tx", "img/Lv_Tx2.png").
 			addElement("hp_bar", "img/bar.PNG").
-			addElement("exp_bar", "img/exp_back.png").
+			addElement("exp_bar", "img/Exp_Back.png").
 			addElement("menu_bg", "img/menu_bg.png").
 			addElement("hp_pot", "img/hp_pot.png").
 			addElement("mp_pot", "img/mp_pot.png").
